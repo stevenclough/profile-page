@@ -1,0 +1,166 @@
+# Types: Hero, Skills, Experience, Certifications
+
+metadata:
+  title: "Chuff"
+  description: "Chuff's Portfolio"
+pages:
+  # ——— HERO PAGE ———
+  - title: "" # Dont change this
+    type: hero
+    profile:
+      name: "Steven 'Chuff' Clough"
+      role: "Infrastructure Engineer / Manager"
+      summary: |
+        Infrastructure Engineer with 15+ years designing and operating service-provider and enterprise environments. Backgrounds in Commercial, Healthcare, Government, and Bluelight Services.
+        
+        Comfortable in "boots on the ground" field engineering, through to core service-provider routing, Infrastructure team management, and effectively collaborating with customers and stakeholders to realise their technical requirements into secure, reliable, maintainable, and efficient Infrastructure.
+      photo: "https://chuff.gay/images/profile1.jpeg"
+      linkedin: "https://uk.linkedin.com/in/stevenjclough"
+      email: "mailto:job@chuff.gay"
+      location: "UK / Remote"
+      stats:
+
+        - label: "Core Technical Skills"
+          value: |
+            Service-Provider Routing
+            Enterprise Networking
+            Virtualisation
+            Infrastructure Design
+            
+        - label: "Environments"
+          value: |
+            Multi-Tenant infrastructure
+            Service Provider Networks
+            Private Cloud
+        
+        - label: "Core Soft Skills"
+          value: | 
+            Team Management
+            Technical Documentation
+            Process Standardisation
+            Stakeholder Management
+
+  # ——— SKILLS PAGE ———
+  - title: "Key Skills"
+    type: skills
+    skills:
+      primary:
+        - Service-Provider Networking - BGP / MPLS
+        - CPE router / Route Redistribution / Customer Network Handoff
+        - Cisco Nexus DC Networking
+        - Cisco Catalyst Networking
+        - Cisco ASA / FTD Firewall - Inc. FMC Managed
+        - Infrastructure Design
+        - Fault-tolorent Architecture
+        - Multi-Tenant infrastructure principles
+        - Infrastructure Monitoring - Zabbix / Grafana
+        - Team Management
+        - IT Management / Policy
+      secondary:
+        - FortiGate 
+        - DDoS Mitigation
+        - Cisco UC Stack
+        - SIP - inc. Debugging SIP traces
+        - Windows/Linux Sysad
+        - VMWare
+        - Veeam
+        - HPE Storage
+        - Proxmox
+        - Ansible
+        - Python
+        - PagerDuty services-orientated configuration
+    # certs: # Optional if you want them on the same page
+    #   - name: CCNP Enterprise (Formerly R&S)
+    #     dates: 2015 - Current
+    #   - name: Cisco Specialist - Security Core
+    #     dates: 2023 - Current
+    #   - name: CCNA R&S
+    #     dates: 2011 - Replaced by CCNP
+    #   - name: CCNA Wireless
+    #     dates: 2020 - 2023
+    #   - name: CCNA Voice
+    #     dates: 2013 - 2018
+
+  # ——— EXPERIENCE PAGE ———
+  - title: "Experience"
+    type: experience
+    experience:
+      - company: Cinos Limited
+        items:
+          - title: Cloud Services Manager
+            dates: 2025 - Present
+            summary: >
+              Oversee the daily operations of a multi-tenant private cloud environment, including line management of the Cloud Infrastructure and Network Deployment teams. Collaboration with technical and non-technical multidisciplinary teams to assess ongoing technical and service needs, ensuring the platform meets and exceeds these requirements while driving continuous improvements.
+          - title: Cloud Services Lead
+            dates: 2020 - 2025
+            summary: >
+              Oversee the daily operations of a multi-tenant private cloud environment. Developing design standards to ensure secure, resilient, and efficient architecture. 
+          - title: EN & CO Consultant
+            dates: 2017 - 2020
+            summary: >
+              Collaboration with customers to understand their technical and user requirements. Design and build networking and unified collaboration (UC) infrastructure solutions. Support escalation point for networking and UC technical issues.
+          - title: Senior Network Engineer (Secondment)
+            dates: 2016 - 2017
+            summary: >
+              Secondment to a customer for medium-term role cover. Line management of Network services team in a healthcare environment. Collaboration with customers to understand their technical and user requirements. Design and build networking and unified collaboration (UC) infrastructure solutions. Support escalation point for networking and UC technical issues.
+          - title: UC Specialist
+            dates: 2014 - 2016
+            summary: >
+              Design and deployment of AV and Control networks, including high-resilience requirements and low-latency multicast traffic. Additionally, acted as the IT lead in a small-business environment.  
+ # ——— EXPERIENCE PAGE 3 ———
+  - title: "Experience"
+    type: experience  
+    experience:
+      - company: Ajilon Consulting
+        items:
+          - title: UC and Network Consultant
+            dates: 2012 - 2014
+            summary: >
+              Collaboration with customers to understand their technical and user requirements. Design and build networking and telepresence infrastructure solutions. Support escalation point for technical issues.
+          - title: AV Consultant (Customer Contract)
+            dates: 2013-2014
+            summary: >
+              Performed an audit of a customers training facility, including 200+ AV rooms. Advised on AV room requirements during building design phase of construction. Collaboration with services team to write RFI for tender process.
+          - title: VTC Technician
+            dates: 2008 - 2012
+            summary: >
+              Service desk and field engineer support for Video Conferencing concierge service, IT user service desk, and MSP IT support. 
+
+  # ——— EXPERIENCE PAGE 3 ———
+  - title: "Volunteering"
+    type: experience
+    experience:
+      - company: Volunteering
+        items:
+          - title: Insomnia Gaming Festival - Tech Support Team Lead
+            dates: 2015 - 2022
+            summary: >
+              Power/Network event cabling. Event technical and customer service desk.
+          - title: StratLAN - Technical Team
+            dates: 2017 - 2019
+            summary: >
+              Power/Network event cabling. Event technical and customer service desk.
+          - title: Play3r - Big Freeze Festival
+            dates: 2016 - 2016
+            summary: >
+              Power/Network event cabling. Event technical and customer service desk.
+
+  # ——— CERTIFICATIONS PAGE ———
+  - title: "Certifications"
+    type: certifications
+    certs:
+      - name: CCNP Enterprise (Formerly R&S)
+        dates: 2015 - Current
+      - name: Cisco Specialist - Security Core
+        dates: 2023 - Current
+      - name: CCNA R&S
+        dates: 2011 - Replaced by CCNP
+      - name: CCNA Wireless
+        dates: 2020 - 2023
+      - name: CCNA Voice
+        dates: 2013 - 2018
+      - name: CMNA 
+        dates: 2018-2021
+      - name: CTS General
+        dates: 2014-2017
+
